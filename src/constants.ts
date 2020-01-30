@@ -169,14 +169,14 @@ export const VENDORS: IVendor[] = [
     provinces: [Province.BC],
     location: 'Smithers',
   },
-  // site is offline while they upgrade jan 2020 TODO
-  // {
-  //   name: 'NAS Guns & Ammo',
-  //   link: 'nasgunsandammo.com',
-  //   logo: 'nas-logo.jpg',
-  //   provinces: [Province.ON],
-  //   location: 'Niagara and Sault Ste. Marie',
-  // },
+  // Updated
+  {
+    name: 'NAS Guns & Ammo',
+    link: 'nasguns.com',
+    logo: 'nas-logo.jpg',
+    provinces: [Province.ON],
+    location: 'Niagara and Sault Ste. Marie',
+  },
   {
     name: 'Dante Sports',
     link: 'dantesports.com',
