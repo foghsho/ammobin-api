@@ -6,7 +6,7 @@ import { scrape, Info, Selectors } from './common'
 export function nas(type: ItemType): Promise<IItemListing[]> {
   const throttle = throat(1)
   const info: Info = {
-    link: 'nasgunsandammo.com',
+    link: 'nasguns.com',
     name: `NAS Guns & Ammo`,
     provinces: [Province.ON],
   }
@@ -22,7 +22,7 @@ export function nas(type: ItemType): Promise<IItemListing[]> {
   }
   const work = t =>
     scrape(
-      p => `https://www.nasgunsandammo.com/product-category/${t}/page/${p}/`,
+      p => `https://www.nasguns.com/product-category/${t}/page/${p}/`,
 
       info,
       selectors
